@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MARCEL-custom")(type "KiCad")(uri "${KIPRJMOD}/MARCEL-custom.kicad_sym")(options "")(descr ""))
+  (lib (name "MARCEL")(type "KiCad")(uri "${KIPRJMOD}/MARCEL.kicad_sym")(options "")(descr ""))
+  (lib (name "usini_sensors")(type "KiCad")(uri "C:/Users/Matei/Downloads/usini_sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "PAM8403")(type "KiCad")(uri "C:/Users/Matei/Downloads/PAM8403.kicad_sym")(options "")(descr ""))
+)

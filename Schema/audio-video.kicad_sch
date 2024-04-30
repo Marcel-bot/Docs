@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6c139109-7883-44cd-97eb-2e369e75bf04")
+	(paper "A4")
+	(title_block
+		(title "Audio & Video")
+	)
+	(lib_symbols)
+)
