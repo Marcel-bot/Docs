@@ -777,7 +777,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.858 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,78 +821,68 @@
 		)
 		(symbol "Kinect_0_1"
 			(arc
-				(start -25.4 -5.715)
-				(mid -25.214 -6.164)
-				(end -24.765 -6.35)
+				(start -25.4 -6.985)
+				(mid -25.214 -7.434)
+				(end -24.765 -7.62)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
-				(start -24.765 0)
-				(mid -25.214 -0.186)
-				(end -25.4 -0.635)
+				(start -24.765 1.27)
+				(mid -25.214 1.084)
+				(end -25.4 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(circle
 				(center -15.875 -3.175)
-				(radius 2.2895)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 0 0 0 1)
 				)
 			)
 			(circle
-				(center -3.175 -3.175)
-				(radius 2.2895)
+				(center -9.525 -3.175)
+				(radius 0.127)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 0 0 0 1)
 				)
 			)
-			(polyline
-				(pts
-					(xy -25.4 -5.715) (xy -25.4 -0.635)
-				)
+			(circle
+				(center -4.445 -3.175)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 0 0 0 1)
 				)
 			)
 			(polyline
 				(pts
-					(xy -24.765 0) (xy 24.765 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 24.765 -6.35) (xy -24.765 -6.35)
+					(xy -25.4 -6.985) (xy -25.4 0.635)
 				)
 				(stroke
 					(width 0)
@@ -904,7 +894,31 @@
 			)
 			(polyline
 				(pts
-					(xy 25.4 -0.635) (xy 25.4 -5.715)
+					(xy -24.765 1.27) (xy 24.765 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.765 -7.62) (xy -24.765 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 0.635) (xy 25.4 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -916,37 +930,154 @@
 			)
 			(circle
 				(center 3.175 -3.175)
-				(radius 2.2895)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 0 0 0 1)
 				)
 			)
 			(arc
-				(start 24.765 -6.35)
-				(mid 25.214 -6.164)
-				(end 25.4 -5.715)
+				(start 24.765 -7.62)
+				(mid 25.214 -7.434)
+				(end 25.4 -6.985)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
-				(start 25.4 -0.635)
-				(mid 25.214 -0.186)
-				(end 24.765 0)
+				(start 25.4 0.635)
+				(mid 25.214 1.084)
+				(end 24.765 1.27)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+		)
+		(symbol "Kinect_1_1"
+			(polyline
+				(pts
+					(xy 24.765 1.27) (xy -24.765 1.27) (xy -24.765 -7.62) (xy 24.765 -7.62) (xy 24.765 1.27)
+				)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 0.635) (xy 25.4 -6.985) (xy -25.4 -6.985) (xy -25.4 0.635) (xy 25.4 0.635)
+				)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 21.59 -10.16 90)
+				(length 2.54)
+				(name "12V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 -10.16 90)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -10.16 90)
+				(length 2.54)
+				(name "Data+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -10.16 90)
+				(length 2.54)
+				(name "Data-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
