@@ -27,9 +27,13 @@ Marcel este un robot umanoi social care are ca scop automatizarea anumitor servi
 - [Galerie](https://github.com/Marcel-bot/Docs/tree/main/Gallery)
 - [Schematici](https://github.com/Marcel-bot/Docs/tree/main/Schema)
 - [Cinematică inversă](https://github.com/Marcel-bot/Docs/blob/main/math/Hands%20Inverse%20Kinematics/Hands%20Inverse%20Kinematics.pdf)
-- [Aplicație]()
-- [Mâini]()
-- [AI]()
+- [Aplicație](https://github.com/Marcel-bot/Application)
+- [Baza](https://github.com/Marcel-bot/Base)
+- [Ultrasonic](https://github.com/Marcel-bot/Ultrasonic)
+- [Mâna Stângă](https://github.com/Marcel-bot/Left-Hand)
+- [Mâna Dreaptă](https://github.com/Marcel-bot/Right-Hand)
+- [Torso](https://github.com/Marcel-bot/Torso)
+- [Brain](https://github.com/Marcel-bot/Brain)
 
 
  ## Echipa
