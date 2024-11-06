@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "d97f5345-78fe-423d-b5b5-15ae67389e7e")
 	(paper "A4")
+	(title_block
+		(title "Hands and Neck")
+		(date "08.05.2024")
+		(rev "1")
+		(comment 1 "The interaction schema")
+		(comment 2 "Controlls the hands and the head rotation")
+	)
 	(lib_symbols
 		(symbol "MARCEL-custom:ESP32"
 			(exclude_from_sim no)

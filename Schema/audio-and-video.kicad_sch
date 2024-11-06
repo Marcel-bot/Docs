@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "315429f5-93d8-42c4-bcd2-6be78bd281bd")
 	(paper "A4")
+	(title_block
+		(title "Audio and Video")
+		(date "08.05.2024")
+		(rev "1")
+		(comment 1 "The camera and audio schema")
+		(comment 2 "Takes handles audio input, audio output and video output")
+	)
 	(lib_symbols
 		(symbol "Device:Speaker"
 			(pin_names

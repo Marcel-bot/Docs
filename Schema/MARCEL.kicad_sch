@@ -6,6 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Body")
+		(date "08.05.2024")
+		(rev "1")
+		(comment 1 "The Root of the schema")
+		(comment 2 "Defines the source and links the different parts of the robot")
 	)
 	(lib_symbols
 		(symbol "Converter_ACDC:VTX-214-010-124"

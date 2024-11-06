@@ -6,6 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Feet")
+		(date "08.05.2024")
+		(rev "1")
+		(comment 1 "The motion schema")
+		(comment 2 "3 Arduino Nanos all controlled by an ESP32 to enable movement")
 	)
 	(lib_symbols
 		(symbol "ESP32_1"

@@ -6,6 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Head")
+		(date "08.05.2024")
+		(rev "1")
+		(comment 1 "The head of the robot")
+		(comment 2 "An ESP32 that controlls 2 eyes (TFT LCD) and an accelerometer")
 	)
 	(lib_symbols
 		(symbol "ESP32_1"
